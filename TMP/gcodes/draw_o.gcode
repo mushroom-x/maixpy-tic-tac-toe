@@ -1,0 +1,12 @@
+(Block-name: block)
+(Block-expand: 1)
+(Block-enable: 1)
+G17
+G1 Z-75 F100000
+G1 X200Y0 F100000
+G1 Z-80 F100000
+G04 P0.5
+G2 X200Y0 I15J0
+G2 X200Y0 I15J0
+G04 P0.5
+G1 Z-75 F100000
