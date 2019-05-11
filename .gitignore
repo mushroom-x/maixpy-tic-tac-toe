@@ -104,4 +104,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-.采集素材图片/
+.MaixToolbox/ncc
+.TMP
+
