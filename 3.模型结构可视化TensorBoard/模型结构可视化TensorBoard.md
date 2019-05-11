@@ -8,6 +8,12 @@
 
 
 
+## 概要
+
+通过TensorBoard查看神经网络结构
+
+
+
 ## 放置pb文件
 
 将生成的Tensorflow模型文件`<你的模型文件名称>.pb` 放置到`Maix_Toolbox` 的工作区`workspace` 文件夹中。
