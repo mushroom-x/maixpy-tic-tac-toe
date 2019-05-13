@@ -1,3 +1,5 @@
+# 教程仓库迁移至 -> [K210基础入门](https://github.com/mushroom-x/K210_Tutorial) 欢迎大家多多star, 嘻嘻
+
 # maixpy-tic-tac-toe
 用MaixPy+机械臂完成井字棋游戏
 
