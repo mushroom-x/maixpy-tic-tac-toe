@@ -100,10 +100,7 @@ venv.bak/
 # mkdocs documentation
 /site
 
-./Maix_Toolbox/ncc
-
 # mypy
 .mypy_cache/
-.MaixToolbox/ncc
-.TMP
 
+./dataset
