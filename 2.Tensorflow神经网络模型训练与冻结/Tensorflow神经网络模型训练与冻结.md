@@ -208,7 +208,7 @@ def bias_variable(shape):
 
 你可以在[kendryte/nncase](https://github.com/kendryte/nncase/)的README页面查看K210支持的层**Support Layer**.
 
-另外，对于神经网络来说,用到的层只有全连接层**FullyConnected**。
+神经网络来说,用到的层只有
 
 K210所支持的激活函数如下
 * Sigmoid
@@ -218,6 +218,8 @@ K210所支持的激活函数如下
 * Softmax
 
 激活函数，在当前的这个模型里面，用到了`Relu` 还有`Softmax`. 
+
+当前的神经网络模型还用到了全连接层**FullyConnected**。
 
 K210支持的卷积层，池化层等其他层，请查阅文档。
 
@@ -331,10 +333,6 @@ y_nn = tf.nn.softmax(tf.matmul(h_fc2_drop, W_fc3) + b_fc3)
 ```
 
 ## 模型训练与评估
-
-
-
-
 
 ```python
 # 真实的label数据 one_hot矩阵
